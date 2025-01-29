@@ -1,5 +1,6 @@
 # OpenVaultFiles
-The repository to store posts on OpenVault! Follow these instructions to make a post yourself.
+The repository to store posts on OpenVault! Follow these instructions to make a post yourself. <br>
+Visit OpenVault [here](https://open-vault-phi.vercel.app/).
 
 ## **1\. Accessing the Repository**
 
@@ -17,38 +18,92 @@ Instead of cloning the repository, you should fork it. Forking creates a copy of
 
 **Video Guide:** [How to Fork a Repository](https://www.youtube.com/watch?v=07quEzZ-sJE)
 
-## **3\. Adding Your Files**
+## **3\. Adding a Folder for Your Contribution**
 
-Once you've forked the repository, you can add your files directly through GitHub.
+Once you've forked the repository, you can add your files directly through GitHub. **But first**, we have to **create a folder for your files**.
+
+### **Creating a Folder for Your Contribution:**
+
+1. Navigate to the appropriate folder in your forked repository (e.g., `ftc/cad/drivetrains/`).  
+2. Create a folder following this naming structure: “YourTeam\#-NameOfContribution”  
+   1. To create a new folder:  
+      1. Click **Add File \> Create New File**.  
+      2. Then in the new text box that appears, type the folder name and then “/”  
+      3. E.g. 25710-SamplePost/  
+3. Click **Commit Changes** to save.
+
+## **4\. Add Your Files to Your Contribution Folder**
 
 ### **Required Files:**
 
 **Each contribution** should have a **folder** containing:
 
 1. An **`info.json`** file with metadata.  
-2. A **preview image** (`.png` file) named as specified in `info.json`.
+2. A **preview image** (`.png` file) named as specified in **`info.json`**.
 
-### **Creating `info.json`**
+### **Adding your info.json file:**
 
-1. Navigate to the appropriate folder in your forked repository (e.g., `ftc/cad/drivetrains/`).  
-2. Create a folder following this naming structure: “YourTeam\#-NameOfContribution”  
-   1. To create a new folder, type the folder name and then “/”  
-   2. E.g. 25710-SamplePost/  
-3. Then inside the folder:  
-   1. Click **Add File \> Create New File**.  
-   2. Name the file **`info.json`**.  
-   3. Copy and modify the corresponding template for CAD, Code, or Portfolio contributions([Given at the bottom of this document](#templates-for-contributions)).  
-5. Click **Commit Changes** to save.
+On the same page that you created your folder, and in the same text box that you created your folder with:
+
+1. Type “info.json” to create your **`info.json`** file.  
+2. Copy and modify the corresponding template for CAD, Code, or Portfolio contributions:  
+   **CAD contributions** should follow this **`info.json`** file format:
+
+```javascript
+{
+    "preview-image-name": "your-image-file-name.png",
+    "title": "The name of your project",
+    "author": "Your Name or you team's name",
+    "description": "Brief description of your CAD contribution.",
+    "used-in-comp": true
+    "team-number": "Your Team Number",
+    "years-used": "the years you used this (e.g. 2023-2024, N/A if necessary)",
+    "onshape-link": "Your CAD link"
+}
+```
+
+   **Code contributions** should follow this **`info.json`** file format:
+
+```javascript
+{
+	"preview-image-name": "your-image-file-name.png",
+      "download-name": "sample-code.png",
+	"title": "Sample Drivetrain",
+	"author": "Your Name or you team's name",
+	"description": "Description of your code contribution",
+	"used-in-comp": true,
+	"team-number": "25710",
+	"years-used": "2024-2025",
+	"language": "Java, Python"
+}
+```
+
+   **Portfolio contributions** should follow this **`info.json`** file format:
+
+```javascript
+{
+	"preview-image-name": "your-image-file-name.png",
+"file-name": "sample-drivetrain.png",
+	"title": "Sample Drivetrain",
+	"author": "Arjun Mahajan",
+	"description": "Description of your portfolio submission",
+	"team-number": "25710",
+	"years-used": "2024-2025",
+	"awards-won": "Inspire, Think"
+}
+```
+
+3. Click **Commit Changes** to save.
 
 ### **Uploading the Preview Image**
 
 1. In the same folder, click **Add File \> Upload File**.  
 2. Upload your **PNG preview image** (named exactly as in `info.json`).  
-3. Click **Commit Changes**.
+3. Click **Commit Changes** to save.
 
 **4\. Example File Structure**
 
-Your submission should follow this format:
+Great, now your submission should be ready, **but** just make sure to check that your contribution follows this file format:
 
 ```
 ftc/
@@ -67,7 +122,7 @@ Once you've added your files, submit a **Pull Request (PR)** to merge your chang
 
 1. Go to your forked repository.  
 2. Click **Contribute \> Open Pull Request**.  
-3. Add a title and description explaining your changes/contribution.  
+3. Add a title and description explaining your changes/contribution(doesn’t need to be too in depth, just make sure to add the name of your contribution folder somewhere so we can review it\!\!).  
 4. Click **Create Pull Request**.
 
 **Video Guide:** [How to Make a Pull Request](https://www.youtube.com/watch?v=nCKdihvneS0)
@@ -76,53 +131,3 @@ Once you've added your files, submit a **Pull Request (PR)** to merge your chang
 
 Once you submit a pull request, maintainers will review it. If changes are needed, they'll provide feedback. Once approved, your contribution will be merged into **OpenVault**\!   
 **Thank you** for contributing to the FTC robotics community\!
-
-# **Templates for Contributions:**
-
-1. CAD contributions should follow this **`info.json`** file format:
-
-```javascript
-{
-    "preview-image-name": "your-image-file-name.png",
-    "title": "The name of your project",
-    "author": "Your Name or you team's name",
-    "description": "Brief description of your CAD contribution.",
-    "used-in-comp": true
-    "team-number": "Your Team Number",
-    "years-used": "the years you used this (e.g. 2023-2024, N/A if necessary)",
-    "onshape-link": "Your CAD link"
-}
-```
-
-2. Code contributions should follow this **`info.json`** file format:
-
-```javascript
-{
-	"preview-image-name": "your-image-file-name.png",
-      "download-name": "sample-code.png",
-	"title": "Sample Drivetrain",
-	"author": "Your Name or you team's name",
-	"description": "Description of your code contribution",
-	"used-in-comp": true,
-	"team-number": "25710",
-	"years-used": "2024-2025",
-	"language": "Java, Python"
-}
-```
-
-3. Portfolio contributions should follow this **`info.json`** file format:
-
-```javascript
-{
-	"preview-image-name": "your-image-file-name.png",
-"file-name": "sample-drivetrain.png",
-	"title": "Sample Drivetrain",
-	"author": "Arjun Mahajan",
-	"description": "Description of your portfolio submission",
-	"team-number": "25710",
-	"years-used": "2024-2025",
-	"awards-won": "Inspire, Think"
-}
-```
-
-## 
