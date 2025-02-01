@@ -3,7 +3,7 @@
     "title": "Title of your CAD",
     "author": "Your Name",
     "description": "Describe your CAD, including unique features.",
-    "used-in-comp": true if used in competition otherwise false,
+    "used-in-comp": false,
     "team-number": "Your Team Number",
     "years-used": "Year(s) Used",
     "onshape-link": "Link to your CAD model on Onshape"
