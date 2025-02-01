@@ -55,7 +55,7 @@ On the same page that you created your folder, and in the same text box that you
    "title": "Your Drivetrain Title",
    "author": "Your Name",
    "description": "Describe your drivetrain, including unique features.",
-   "used-in-comp": true,
+   "used-in-comp": true if used in competition otherwise false,
    "team-number": "Your Team Number",
    "years-used": "Year(s) Used",
    "onshape-link": "Link to you CAD model on Onshape"
@@ -100,6 +100,13 @@ On the same page that you created your folder, and in the same text box that you
 1. In the same folder, click **Add File \> Upload File**.  
 2. Upload your **PNG preview image** (named exactly as in `info.json`).  
 3. Click **Commit Changes** to save.
+<p>
+   <strong>Important Note:</strong>
+   Your preview image and other download names for portfolio and code contributions should match the name of the
+   corresponding files in your info.json file, otherwise the files will not be found.
+   For the "used-in-comp" field, you must put either "true" or "false". There cannot be any quotations around the
+   "true" or "false".
+</p>
 
 **4\. Example File Structure**
 
