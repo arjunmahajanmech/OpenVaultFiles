@@ -51,14 +51,14 @@ On the same page that you created your folder, and in the same text box that you
 
 ```javascript
 {
-    "preview-image-name": "your-image-file-name.png",
-    "title": "The name of your project",
-    "author": "Your Name or you team's name",
-    "description": "Brief description of your CAD contribution.",
-    "used-in-comp": true
-    "team-number": "Your Team Number",
-    "years-used": "the years you used this (e.g. 2023-2024, N/A if necessary)",
-    "onshape-link": "Your CAD link"
+   "preview-image-name": "your-preview-image.png",
+   "title": "Your Drivetrain Title",
+   "author": "Your Name",
+   "description": "Describe your drivetrain, including unique features.",
+   "used-in-comp": true,
+   "team-number": "Your Team Number",
+   "years-used": "Year(s) Used",
+   "onshape-link": "Link to you CAD model on Onshape"
 }
 ```
 
@@ -66,15 +66,15 @@ On the same page that you created your folder, and in the same text box that you
 
 ```javascript
 {
-	"preview-image-name": "your-image-file-name.png",
-      "download-name": "sample-code.png",
-	"title": "Sample Drivetrain",
-	"author": "Your Name or you team's name",
-	"description": "Description of your code contribution",
-	"used-in-comp": true,
-	"team-number": "25710",
-	"years-used": "2024-2025",
-	"language": "Java, Python"
+   "preview-image-name": "your-image-file-name.png",
+   "download-name": "name of your file.zip",
+   "title": "title of your code contribution",
+   "author": "your name or you team's name",
+   "description": "description of your code contribution",
+   "used-in-comp": true if used in competition otherwise false,
+   "team-number": "your team number",
+   "years-used": "years you used it",
+   "language": "languages-used"
 }
 ```
 
@@ -82,14 +82,14 @@ On the same page that you created your folder, and in the same text box that you
 
 ```javascript
 {
-	"preview-image-name": "your-image-file-name.png",
-"file-name": "sample-drivetrain.png",
-	"title": "Sample Drivetrain",
-	"author": "Arjun Mahajan",
-	"description": "Description of your portfolio submission",
-	"team-number": "25710",
-	"years-used": "2024-2025",
-	"awards-won": "Inspire, Think"
+   "preview-image-name": "your-image-file-name.png",
+   "file-name": "name of portfolio-file.pdf",
+   "title": "name of your portfolio-submission",
+   "author": "your name or you team's name",
+   "description": "description of your portfolio submission",
+   "team-number": "your team number",
+   "years-used": "years you used it",
+   "awards-won": "awards this portfolio won"
 }
 ```
 
