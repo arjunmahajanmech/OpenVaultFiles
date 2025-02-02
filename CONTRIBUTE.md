@@ -101,7 +101,8 @@ On the same page that you created your folder, and in the same text box that you
 }
 ```
 
-3. Click **Commit Changes** to save.
+3. Replace the filler text with your actual information.
+5. Click **Commit Changes** to save.
 
 ### Uploading Your Preview Image:
 
@@ -119,7 +120,8 @@ On the same page that you created your folder, and in the same text box that you
 **Important Note:**
 
 - Your preview image and other file names should match the names specified in `info.json`, otherwise, the files will not be found.
-- The `used-in-comp` field must be either `true` or `false` (without quotes).
+- The `used-in-comp` field must be either `true` or `false` (without quotes). It can only hold one of those values, nothing else.
+- Make sure that the whole description is encolsed in double quotes and is all on one line;
 
 ---
 
