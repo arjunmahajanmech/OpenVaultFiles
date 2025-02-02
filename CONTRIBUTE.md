@@ -33,6 +33,7 @@ Once you've forked the repository, you can add your files directly through GitHu
     - In the textbox that appears, type the folder name followed by `/`.
     - Example: `25710-ArmCadV1/`
     - A new textbox should automatically appear.
+    - Make sure that there are no spaces in the name of your folder or any of your files. If there are, it may break your post.
 3. Do not click out of this text box. We will tell you what to put here in the next step.
 
 ---
