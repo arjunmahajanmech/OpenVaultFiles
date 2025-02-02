@@ -121,7 +121,7 @@ On the same page that you created your folder, and in the same text box that you
 
 - Your preview image and other file names should match the names specified in `info.json`, otherwise, the files will not be found.
 - The `used-in-comp` field must be either `true` or `false` (without quotes). It can only hold one of those values, nothing else.
-- Make sure that the whole description is encolsed in double quotes and is all on one line;
+- Make sure that the whole description is encolsed in double quotes and is all on one line.
 
 ---
 
